@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    <%String str=request.getParameter("msg"); %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +9,12 @@
 </head>
 <body>
 <h1>Fill the Details.....</h1>
-<form action="" method="POST">
+<%if("valid".equals(str))
+	{
+	%>
+<h3>Sucessfully Registered!</h3>
+<%} %>
+<form action="UserController" method="POST">
 <table>
 <tr>
 <th>Enter Name:</th><th><input type="text" name="uname"></th>
@@ -26,7 +32,7 @@
 <th>Enter Password:</th><th><input type="password" name="upass"></th>
 </tr>
 </table>
-<input type="submit" value="Login">
+<input type="submit" value="Register">
 <input type="reset" value="Clear">
 </form>
 </body>

@@ -26,5 +26,10 @@ namespace WebApplication.Controllers
 
             return View();
         }
+
+        public String abc()
+        {
+            return "Welcome to MVC.net ASP";
+        }
     }
 }

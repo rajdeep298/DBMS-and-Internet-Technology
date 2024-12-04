@@ -1,0 +1,5 @@
+package org.jdbc.misc;
+
+public class ConnectionProvider {
+
+}

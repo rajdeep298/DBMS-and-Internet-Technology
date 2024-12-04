@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\DBMS_and_Internet_Technology\\WebApplication\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E318D693-BBB4-483C-9D45-A8D08426CA95}|WebApplication\\WebApplication.csproj|d:\\dbms_and_internet_technology\\webapplication\\webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E318D693-BBB4-483C-9D45-A8D08426CA95}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E318D693-BBB4-483C-9D45-A8D08426CA95}|WebApplication\\WebApplication.csproj|D:\\DBMS_and_Internet_Technology\\WebApplication\\webapplication\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E318D693-BBB4-483C-9D45-A8D08426CA95}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\DBMS_and_Internet_Technology\\WebApplication\\WebApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\DBMS_and_Internet_Technology\\WebApplication\\WebApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwBYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:57:59.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "D:\\DBMS_and_Internet_Technology\\WebApplication\\WebApplication\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "WebApplication\\App_Start\\BundleConfig.cs",
+              "ToolTip": "D:\\DBMS_and_Internet_Technology\\WebApplication\\WebApplication\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "WebApplication\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:57:52.643Z"
             }
           ]
         }
