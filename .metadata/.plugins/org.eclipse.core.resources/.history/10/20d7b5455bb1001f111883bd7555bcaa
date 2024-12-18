@@ -1,6 +1,0 @@
-package org.jdbc.misc;
-import java.sql.*;.*;
-
-public class ConnectionProvider {
-
-}

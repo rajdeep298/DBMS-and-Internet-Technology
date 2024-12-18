@@ -1,5 +1,0 @@
-package org.jdbc.model.dao;
-
-public class UserDao {
-
-}

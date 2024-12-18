@@ -47,6 +47,13 @@ public class UserController extends HttpServlet {
 		{
 			response.sendRedirect("register.jsp?msg=valid");
 		}
+		
+		boolean statuslog = ud.login(ub);
+		if (statuslog) {
+			response.sendRedirect("login.jsp?msg=valid");
+		} else {
+			response.sendRedirect("login.jsp?msg=invalid");
+		}
 	}
 
 	
