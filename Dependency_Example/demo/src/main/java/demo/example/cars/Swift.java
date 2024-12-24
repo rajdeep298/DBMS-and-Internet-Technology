@@ -1,7 +1,10 @@
 package demo.example.cars;
 
+import org.springframework.stereotype.Component;
+
 import demo.example.intf.Car;
 
+@Component("mySwift")
 public class Swift implements Car {
 
 	@Override
