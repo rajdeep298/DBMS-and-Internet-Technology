@@ -7,6 +7,18 @@ public class UserBean {
 	private String address;
 	private String pass;
 	
+	public UserBean() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public UserBean(String name, String email, String phno, String address) {
+		super();
+		this.name = name;
+		this.email = email;
+		this.phno = phno;
+		this.address = address;
+	}
+	
 	public String getName() {
 		return name;
 	}

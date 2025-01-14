@@ -9,7 +9,7 @@ import demo.example.intf.Car;
 public class Corolla implements Car {
 
 	Engine engine;
-	@Autowired
+	@Autowired	//Autowired is used to inject the dependency of Engine class in Corolla class automatically
 	public void setEngine(Engine engine) {
 		engine.engineType = "W16";
 		this.engine = engine;

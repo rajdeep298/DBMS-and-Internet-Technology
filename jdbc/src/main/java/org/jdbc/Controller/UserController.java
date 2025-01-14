@@ -1,11 +1,13 @@
 package org.jdbc.Controller;
 
-import java.io.IOException;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+
+import java.io.IOException;
 
 import org.jdbc.model.bean.UserBean;
 import org.jdbc.model.dao.UserDao;
@@ -13,7 +15,6 @@ import org.jdbc.model.dao.UserDao;
 /**
  * Servlet implementation class UserController
  */
-@WebServlet("/UserController")
 public class UserController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -33,7 +34,7 @@ public class UserController extends HttpServlet {
 		String phno=request.getParameter("uphno");
 		String add=request.getParameter("uadd");
 		String pass=request.getParameter("upass");
-		
+		HttpSession session=request.getSession();
 		UserBean ub=new UserBean();
 		ub.setName(name);
 		ub.setEmail(email);
@@ -48,15 +49,18 @@ public class UserController extends HttpServlet {
 			response.sendRedirect("register.jsp?msg=valid");
 		}
 		
-		boolean statuslog = ud.login(ub);
-		if (statuslog) {
-			response.sendRedirect("login.jsp?msg=valid");
-		} else {
+		boolean statuslog=ud.login(ub);
+		if(statuslog)
+		{
+			session.setAttribute("data", email);
+			response.sendRedirect("index.jsp");
+		}
+		else {
 			response.sendRedirect("login.jsp?msg=invalid");
 		}
 	}
+	
+	
+	
 
-	
-	
-	
 }

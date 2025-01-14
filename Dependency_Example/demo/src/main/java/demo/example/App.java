@@ -18,7 +18,7 @@ public class App {
 //		System.out.println(mycar.getCar());
 //		
 //		mycar = new Corolla();
-//		System.out.println(mycar.getCar());
+//		System.out.println(mycar.getCar()); //This is known as tight coupling
 		
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 		Car mycar = context.getBean("mySwift", Car.class);
