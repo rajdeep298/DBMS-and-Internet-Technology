@@ -5565,3 +5565,8 @@ java.io.FileNotFoundException: D:\DBMS_and_Internet_Technology\jdbc\src\main\web
 	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3187)
 	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:357)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 2 2025-02-02 19:05:24.873
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2025-02-02 19:05:24.873
+!MESSAGE The project description file (.project) for 'jdbc' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
