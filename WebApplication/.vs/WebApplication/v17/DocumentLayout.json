@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\DBMS_and_Internet_Technology\\WebApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E318D693-BBB4-483C-9D45-A8D08426CA95}|WebApplication\\WebApplication.csproj|d:\\dbms_and_internet_technology\\webapplication\\webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E318D693-BBB4-483C-9D45-A8D08426CA95}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3F124599-97F1-4A26-A3BA-F821305F0F07}|WebApplication.csproj|d:\\dbms_and_internet_technology\\webapplication\\models\\ecommodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{3F124599-97F1-4A26-A3BA-F821305F0F07}|WebApplication.csproj|solutionrelative:models\\ecommodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E318D693-BBB4-483C-9D45-A8D08426CA95}|WebApplication\\WebApplication.csproj|D:\\DBMS_and_Internet_Technology\\WebApplication\\webapplication\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E318D693-BBB4-483C-9D45-A8D08426CA95}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E318D693-BBB4-483C-9D45-A8D08426CA95}|WebApplication\\WebApplication.csproj|D:\\DBMS_and_Internet_Technology\\WebApplication\\webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E318D693-BBB4-483C-9D45-A8D08426CA95}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E318D693-BBB4-483C-9D45-A8D08426CA95}|WebApplication\\WebApplication.csproj|D:\\DBMS_and_Internet_Technology\\WebApplication\\webapplication\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E318D693-BBB4-483C-9D45-A8D08426CA95}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F124599-97F1-4A26-A3BA-F821305F0F07}|WebApplication.csproj|d:\\dbms_and_internet_technology\\webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F124599-97F1-4A26-A3BA-F821305F0F07}|WebApplication.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,51 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DBMS_and_Internet_Technology\\WebApplication\\WebApplication\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\DBMS_and_Internet_Technology\\WebApplication\\WebApplication\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebApplication\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-07T10:05:21.427Z",
-              "EditorCaption": ""
+              "Title": "EcomModel.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\DBMS_and_Internet_Technology\\WebApplication\\Models\\EcomModel.edmx",
+              "RelativeDocumentMoniker": "Models\\EcomModel.edmx",
+              "ToolTip": "D:\\DBMS_and_Internet_Technology\\WebApplication\\Models\\EcomModel.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\EcomModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-02-21T09:15:58.779Z",
+              "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "D:\\DBMS_and_Internet_Technology\\WebApplication\\WebApplication\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "WebApplication\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "D:\\DBMS_and_Internet_Technology\\WebApplication\\WebApplication\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "WebApplication\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-07T10:05:11.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\DBMS_and_Internet_Technology\\WebApplication\\WebApplication\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\DBMS_and_Internet_Technology\\WebApplication\\WebApplication\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplication\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T10:57:59.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BundleConfig.cs",
-              "DocumentMoniker": "D:\\DBMS_and_Internet_Technology\\WebApplication\\WebApplication\\App_Start\\BundleConfig.cs",
-              "RelativeDocumentMoniker": "WebApplication\\App_Start\\BundleConfig.cs",
-              "ToolTip": "D:\\DBMS_and_Internet_Technology\\WebApplication\\WebApplication\\App_Start\\BundleConfig.cs",
-              "RelativeToolTip": "WebApplication\\App_Start\\BundleConfig.cs",
+              "DocumentMoniker": "D:\\DBMS_and_Internet_Technology\\WebApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\DBMS_and_Internet_Technology\\WebApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T10:57:52.643Z"
+              "WhenOpened": "2025-02-21T09:15:18.793Z",
+              "EditorCaption": ""
             }
           ]
         }
