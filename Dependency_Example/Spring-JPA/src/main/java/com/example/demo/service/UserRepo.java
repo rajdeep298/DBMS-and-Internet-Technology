@@ -8,6 +8,6 @@ public interface UserRepo extends JpaRepository<User, Integer> {// User is the e
 																// primary key
 	// we inherit all the methods from JpaRepository
 	// we can also define our own methods
-	
+	User findByEmailAndPassword(String email, String password);
 
 }

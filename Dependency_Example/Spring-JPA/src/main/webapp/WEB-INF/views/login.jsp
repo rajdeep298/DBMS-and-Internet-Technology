@@ -16,7 +16,7 @@
     <% if("invalid".equals(str)){%>
     <h3>Please Retry</h3>
     <%}%>
-    <form action="LoginController" method="POST">
+    <form action="loginprocess" method="POST">
       <table>
         <tr>
           <th>Enter Email:</th><th><input type="email" name="uemail"></th>
