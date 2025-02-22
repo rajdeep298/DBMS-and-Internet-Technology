@@ -1,4 +1,5 @@
 package org.jdbc.model.bean;
+//The UserBean class is a simple JavaBean class that has private fields, a no-argument constructor, and getter and setter methods for the fields.
 
 public class UserBean {
     private String name;

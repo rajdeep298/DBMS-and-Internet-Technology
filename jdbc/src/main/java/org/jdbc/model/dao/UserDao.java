@@ -1,4 +1,5 @@
 package org.jdbc.model.dao;
+//UserDao class is a Data Access Object (DAO) class that provides an abstract interface to some type of database or other persistence mechanism.
 
 import org.jdbc.misc.ConnectionProvider;
 import org.jdbc.model.bean.UserBean;
