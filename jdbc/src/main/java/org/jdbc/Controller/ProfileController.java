@@ -27,15 +27,15 @@ public class ProfileController extends HttpServlet {
 		System.out.println(val);
 		if(!val.equals(null))
 		{
-		UserBean ub=new UserBean();
-		ub.setEmail(val);
-		
-		UserDao ud=new UserDao();
-		List<UserBean> ulist=ud.profile(ub);
-		System.out.println("Profile method called. Status: " + ulist);
-		request.setAttribute("dlist", ulist);
-		RequestDispatcher rd=request.getRequestDispatcher("profile.jsp");
-		rd.forward(request, response);
+			UserBean ub=new UserBean();
+			ub.setEmail(val);
+
+			UserDao ud=new UserDao();
+			List<UserBean> ulist=ud.profile(ub);
+			System.out.println("Profile method called. Status: " + ulist);
+			request.setAttribute("dlist", ulist);
+			RequestDispatcher rd=request.getRequestDispatcher("profile.jsp");
+			rd.forward(request, response);
 		}
 		else {
 			response.sendRedirect("login.jsp?msg=false");

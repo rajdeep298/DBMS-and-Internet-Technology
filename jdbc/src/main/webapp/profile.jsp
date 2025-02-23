@@ -84,6 +84,8 @@ for(UserBean data:ulist)
     <li>Phno Is:<%=data.getPhno() %></li>
     <li>Address Is:<%=data.getAdd() %></li>
     <%} %>
+
+    <button><a href="logout.jsp">Logout</a></button>
 </div>
 
 </body>
