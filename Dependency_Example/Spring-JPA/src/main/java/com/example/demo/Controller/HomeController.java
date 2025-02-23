@@ -71,19 +71,5 @@ public class HomeController {
 		
 	}
 	
-	@RequestMapping("/profileprocess")
-	public String profileprocess(@RequestParam("uname") String name, @RequestParam("uemail") String email,
-			@RequestParam("uphno") String phno, @RequestParam("upass") String password, ModelMap model,
-			HttpSession session) {
 
-		User user = new User();
-		user.setName(name);
-		user.setEmail(email);
-		user.setPhno(phno);
-		user.setPassword(password);
-		urepo.save(user);
-		session.setAttribute("data", user);
-		model.put("msg", "Profile updated successfully");
-		return "profile";
-	}
 }

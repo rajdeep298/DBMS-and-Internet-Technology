@@ -5783,3 +5783,6 @@ type: chat_enabled,
 
 !ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-02-23 11:42:38.610
 !MESSAGE [C4E] Workspace labels: java,maven
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2025-02-23 13:25:18.114
+!MESSAGE Timeout while checking Copilot status
