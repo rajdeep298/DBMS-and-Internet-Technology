@@ -20,6 +20,7 @@
                     flex-direction: column;
                     align-items: center;
                 }
+
                 header {
                     background: #333;
                     color: #fff;
@@ -29,18 +30,20 @@
                     font-size: 24px;
                     font-weight: bold;
                 }
+
                 div {
                     display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    justify-content: flex-start;
+                    align-items: flex-start;
                     flex-direction: column;
                     background: cadetblue;
                     padding: 20px;
                     border-radius: 10px;
                     font-size: large;
                     font-weight: bold;
-                    margin-top: 30px; /* Added margin to create gap */
+                    margin-top: 30px;
                 }
+
                 button {
                     padding: 10px 20px;
                     margin: 10px;
@@ -51,27 +54,45 @@
                     border-radius: 5px;
                     transition: background 0.3s ease, box-shadow 0.3s ease;
                 }
+
                 button:hover {
                     background: #888820;
                     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
                 }
+
                 button a {
                     text-decoration: none;
                     color: #fff;
                 }
+
                 button a:hover {
                     color: #000;
                 }
+
                 input {
                     padding: 10px;
                     margin: 10px;
                     border: none;
                     border-radius: 5px;
                 }
+
                 input:hover {
                     background: blanchedalmond;
                     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
                 }
+
+                li {
+                    padding: 10px;
+                    margin: 10px;
+                    border: none;
+                    border-radius: 5px;
+                }
+
+                li:hover {
+                    background: blanchedalmond;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                }
+
             </style>
     </head>
     <body>
