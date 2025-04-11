@@ -7,7 +7,7 @@ public class ConnectionProvider {
     public static Connection getCon() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mca1sem","root","Rajdeep@2024");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mca1sem","root","Rajdeep@2025");
             if (con == null) {
                 System.out.println("❌ Connection is NULL!");
             } else {
